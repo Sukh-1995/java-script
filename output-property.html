@@ -1,0 +1,27 @@
+<!-- Inner html and inner text -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 align="center">Difference between innerHTML and innerText</h2>
+    <h2>InnerHTML</h2>
+    <p>Hello World</p>
+    <p id="demo"></p>
+    <h2>InnerText</h2>
+    <p>Hello World</p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+        document.getElementById("demo").innerHTML="<h3>Hello</h3>";
+        document.getElementById("demo1").innerText="<h3>Hello</h3>";
+        document.getElementById("demo2").innerText="Hello";
+        
+        
+    </script>
+</body>
+</html>
