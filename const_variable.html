@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const x=["BMW "," Audi "," Civic "];
+        x[0]=" Scorpio ";
+        x.push(" BMW ");
+        document.getElementById("demo").innerHTML=x;
+    </script>
+    <p id="demo1">Second example</p>
+    <script>
+        const car={type:" BMW ", model:" 2012 ", color:" white "};
+        car.color=" black ";
+        car.ownername="micky";
+    //    document.getElementById("demo1").innerHTML=car.ownername;
+        document.getElementById("demo1").innerHTML="color of car is" + car.color;
+    </script>
+</body>
+</html>
